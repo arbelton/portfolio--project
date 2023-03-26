@@ -26,9 +26,6 @@ h1 {
   line-height: 1.5;
 }
 
-h2 {
-  font-size: 68px;
-}
 h4 {
   font-family: var(--heading-font-family);
   font-size: 44px;
@@ -46,6 +43,13 @@ p {
   padding: 160px 20px;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 68px;
 }
 
 .btn-branding-outline {
