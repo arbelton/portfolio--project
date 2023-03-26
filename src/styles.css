@@ -61,35 +61,58 @@ p {
   padding: 15px 30px;
 }
 
-.contact-link {
+.contact-link,
+.about-link {
   color: var(--secondary-color);
   background: var(--ground-color);
   font-size: 24px;
+  text-align: center;
   text-decoration: none;
   border-radius: 10px;
   padding: 15px 10px;
+}
+.navigation-link {
+  display: flex;
+  justify-content: center;
+}
+.navigation-link a {
+  margin: 20px;
+}
+
+.navigation-link:hover {
+  color: white;
 }
 
 .project-desciption {
   padding: 120px 60px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 576px) {
   h1 {
-    font-size: 44px;
-    line-height: 2;
+    color: var(--ground-color);
+    font-size: 48px;
+    line-height: 1.5;
   }
 
   h2 {
-    font-size: 44px;
-  }
-
-  .hero {
-    padding: 80px 20px;
-  }
-
-  .project-desciption {
-    padding: 0;
+    color: var(--ground-color);
+    font-size: 22px;
     text-align: center;
+  }
+  h3 {
+    color: var(--ground-color);
+  }
+
+  p {
+    text-align: center;
+  }
+  .hero {
+    background: var(--primary-color);
+  }
+
+  .btn-branding-outline {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
