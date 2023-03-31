@@ -51,7 +51,14 @@ p {
   line-height: 1.5;
   font-size: 68px;
 }
-
+.btn-branding {
+  background: var(--accent-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
 .btn-branding-outline {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
@@ -86,6 +93,27 @@ p {
 .project-desciption {
   padding: 120px 60px;
 }
+.about-header,
+.about-dev {
+  color: var(--ground-color);
+}
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
 
 @media (max-width: 576px) {
   h1 {
@@ -105,6 +133,10 @@ p {
 
   p {
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
   .hero {
     background: var(--primary-color);
